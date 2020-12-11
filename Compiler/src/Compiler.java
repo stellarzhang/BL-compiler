@@ -2,16 +2,16 @@ import components.simplewriter.SimpleWriter;
 import components.simplewriter.SimpleWriter1L;
 
 /**
- * Simple HelloWorld program (clear of Checkstyle and FindBugs warnings).
+ * GUI BL compiler with a similar format to W3Schools.
  *
- * @author P. Bucci
+ * @author Stella Zhang
  */
-public final class HelloWorld {
+public final class Compiler {
 
     /**
      * Default constructor--private to prevent instantiation.
      */
-    private HelloWorld() {
+    private Compiler() {
         // no code needed here
     }
 
