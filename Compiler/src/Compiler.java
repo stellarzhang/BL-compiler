@@ -14,7 +14,8 @@ public final class Compiler extends JFrame {
      *            the command line arguments; unused here
      */
     public static void main(String[] args) {
-
+        CompilerController controller = new CompilerController1();
+        CompilerModel model = new CompilerModel1();
+        CompilerView view = new CompilerView1();
     }
-
 }
