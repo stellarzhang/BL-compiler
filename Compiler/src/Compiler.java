@@ -1,19 +1,13 @@
-import components.simplewriter.SimpleWriter;
-import components.simplewriter.SimpleWriter1L;
+import java.util.Scanner;
+
+import javax.swing.JFrame;
 
 /**
  * GUI BL compiler with a similar format to W3Schools.
  *
  * @author Stella Zhang
  */
-public final class Compiler {
-
-    /**
-     * Default constructor--private to prevent instantiation.
-     */
-    private Compiler() {
-        // no code needed here
-    }
+public final class Compiler extends JFrame {
 
     /**
      * Main method.
@@ -22,9 +16,11 @@ public final class Compiler {
      *            the command line arguments; unused here
      */
     public static void main(String[] args) {
-        SimpleWriter out = new SimpleWriter1L();
-        out.println("Hello World!");
-        out.close();
+        Scanner in = new Scanner(System.in);
+        String fileName = in.nextLine();
+        JFrame frame = new JFrame("Compiler");
+
+        in.close();
     }
 
 }
