@@ -3,6 +3,6 @@
  *
  * @author Stella Zhang
  */
-public final class CompilerModel1 {
+public final class CompilerModel1 implements CompilerModel {
 
 }

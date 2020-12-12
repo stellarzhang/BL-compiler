@@ -3,6 +3,6 @@
  *
  * @author Stella Zhang
  */
-public final class CompilerModel {
+public interface CompilerModel {
 
 }

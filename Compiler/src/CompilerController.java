@@ -3,6 +3,9 @@
  *
  * @author Stella Zhang
  */
-public final class CompilerController {
-
+public interface CompilerController {
+    /**
+     * Processes compiling event.
+     */
+    void processCompilation();
 }

@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 import javax.swing.JFrame;
 
 /**
@@ -16,11 +14,7 @@ public final class Compiler extends JFrame {
      *            the command line arguments; unused here
      */
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        String fileName = in.nextLine();
-        JFrame frame = new JFrame("Compiler");
 
-        in.close();
     }
 
 }

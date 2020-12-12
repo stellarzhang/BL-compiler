@@ -3,6 +3,6 @@
  *
  * @author Stella Zhang
  */
-public final class CompilerView1 {
+public final class CompilerView1 implements CompilerView {
 
 }
