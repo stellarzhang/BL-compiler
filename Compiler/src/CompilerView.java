@@ -1,4 +1,5 @@
 import java.awt.event.ActionListener;
+import java.util.Queue;
 
 /**
  * Compiler view interface.
@@ -12,7 +13,7 @@ public interface CompilerView extends ActionListener {
      *
      * @param p
      */
-    void updateConsoleDisplay(Program2 p);
+    void updateConsoleDisplay(Queue<String> errors);
 
     /**
      * Depending on if there is source code in the user editing window, the

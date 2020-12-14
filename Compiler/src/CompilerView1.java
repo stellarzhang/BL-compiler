@@ -1,6 +1,7 @@
 import java.awt.Cursor;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
+import java.util.Queue;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -129,7 +130,7 @@ public final class CompilerView1 extends JFrame implements CompilerView {
     }
 
     @Override
-    public void updateConsoleDisplay(Program2 p) {
+    public void updateConsoleDisplay(Queue<String> errors) {
         this.consoleWindow.setText("remember to fix this lol");
 
     }

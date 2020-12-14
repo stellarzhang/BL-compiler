@@ -1,4 +1,4 @@
-import components.program.Program;
+import java.util.Queue;
 
 /**
  * Compiler model interface.
@@ -11,5 +11,10 @@ public interface CompilerModel {
      *
      * @return Abstract Program object of user's source code.
      */
-    Program userWindow();
+    Program1Parse1 userWindowContent();
+
+    /**
+     * Reports what is in the console window.
+     */
+    Queue<String> consoleWindow();
 }
