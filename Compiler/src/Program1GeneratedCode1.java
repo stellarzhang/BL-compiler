@@ -17,8 +17,10 @@ import components.utilities.Reporter;
  *
  * @author Put your name here
  *
- */
-public final class Program1GeneratedCode1 extends Program1 {
+ */ // TODO i changed "extends program1" to "extends program2" bc im trying to
+//be as self sufficient from the cse components as possible. hopefully this doesn't
+//break it.
+public final class Program1GeneratedCode1 extends Program2 {
 
     /*
      * Private members --------------------------------------------------------

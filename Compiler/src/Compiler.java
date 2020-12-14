@@ -3,6 +3,8 @@ import javax.swing.JFrame;
 /**
  * GUI BL compiler with a similar format to W3Schools.
  *
+ * TODO properly cite all code from partner and professor.
+ *
  * @author Stella Zhang
  */
 public final class Compiler extends JFrame {
@@ -17,5 +19,7 @@ public final class Compiler extends JFrame {
         CompilerController controller = new CompilerController1();
         CompilerModel model = new CompilerModel1();
         CompilerView view = new CompilerView1();
+
+        view.registerObserver(controller);
     }
 }
